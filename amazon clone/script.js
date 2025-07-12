@@ -1,4 +1,3 @@
-// Handle "Add to Cart" button click
 const cart = [];
 
 document.querySelectorAll(".product-card button").forEach(button => {
@@ -16,7 +15,6 @@ document.querySelectorAll(".product-card button").forEach(button => {
   });
 });
 
-// Optional: Add search feature (basic, real-time)
 const searchInput = document.querySelector(".search-bar");
 if (searchInput) {
   searchInput.addEventListener("input", () => {
